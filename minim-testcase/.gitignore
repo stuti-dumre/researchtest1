@@ -1,0 +1,5 @@
+MINIM/
+results/t02_work/
+results/t04_work/
+__pycache__/
+*.pyc

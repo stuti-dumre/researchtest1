@@ -1,5 +1,6 @@
-MINIM/
-results/t02_work/
-results/t04_work/
+/data/
+/models/
+experiments/*/runs/
+experiments/*/runs_smoke/
 __pycache__/
 *.pyc

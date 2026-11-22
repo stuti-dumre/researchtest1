@@ -1,0 +1,11 @@
+{
+  "steps": 300,
+  "batch": 4,
+  "lr": 0.0001,
+  "rank": 16,
+  "drop": 0.1,
+  "seed": 0,
+  "init_lora": "runs/models/base/lora.pt",
+  "images": 496,
+  "seconds": 1550
+}

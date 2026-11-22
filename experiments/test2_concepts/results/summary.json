@@ -1,0 +1,22 @@
+{
+ "eligible": 90,
+ "eligible_by_category": {
+  "other": 76,
+  "scan type, view, region": 14
+ },
+ "usable": 30,
+ "usable_by_category": {
+  "other": 16,
+  "scan type, view, region": 14
+ },
+ "usable_other": 16,
+ "decision_rule": "5 to 19: limited; concept results secondary",
+ "test_coverage": {
+  "items_with_at_least_one_usable_other": 0.1275,
+  "mean_usable_other_per_item": 0.1525
+ },
+ "seconds": {
+  "features": 937,
+  "classifiers": 41
+ }
+}

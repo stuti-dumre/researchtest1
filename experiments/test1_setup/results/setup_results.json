@@ -1,0 +1,88 @@
+{
+ "S0-1": {
+  "generate_exit": 0,
+  "seconds": 102.4,
+  "items": [
+   {
+    "ID": "ROCOv2_2023_valid_008394",
+    "modality": "CT",
+    "max_diff": 0,
+    "mean_diff": 0.0,
+    "pixels_differing": 0,
+    "prompt_same": true
+   },
+   {
+    "ID": "ROCOv2_2023_valid_002137",
+    "modality": "X-ray",
+    "max_diff": 0,
+    "mean_diff": 0.0,
+    "pixels_differing": 0,
+    "prompt_same": true
+   },
+   {
+    "ID": "ROCOv2_2023_test_002806",
+    "modality": "MRI",
+    "max_diff": 0,
+    "mean_diff": 0.0,
+    "pixels_differing": 0,
+    "prompt_same": true
+   },
+   {
+    "ID": "ROCOv2_2023_test_007340",
+    "modality": "Ultrasound",
+    "max_diff": 0,
+    "mean_diff": 0.0,
+    "pixels_differing": 0,
+    "prompt_same": true
+   }
+  ],
+  "pass": true
+ },
+ "S0-2": {
+  "judge1_real": {
+   "scan_type": 0.98,
+   "region": 0.8969072164948454
+  },
+  "judge2_real": {
+   "scan_type": 0.97,
+   "region": 0.865979381443299
+  },
+  "judge1_on_redraw": {
+   "ROCOv2_2023_valid_008394": "CT",
+   "ROCOv2_2023_valid_002137": "X-ray",
+   "ROCOv2_2023_test_002806": "CT",
+   "ROCOv2_2023_test_007340": "CT"
+  },
+  "pass": true
+ },
+ "S0-3": {
+  "judge1_ids": 4800,
+  "judge1_feature_check_max_diff": 0.0,
+  "judge2_ids": 4700,
+  "articles": {
+   "test": 359,
+   "judge1": 3937,
+   "judge2": 4335,
+   "checker_role": 585,
+   "judge1_and_judge2_shared": 0
+  },
+  "four_types_total": 73830,
+  "no_article_id": 0,
+  "pool_images": 53124,
+  "pool_articles": 33724,
+  "pool_per_type": {
+   "CT": 22392,
+   "X-ray": 13798,
+   "MRI": 9134,
+   "Ultrasound": 7800
+  },
+  "pool_sha256": "a986fa56a5199c28727175676c136b6ccf376ad12b5a866bd638145dc9f2ad92",
+  "existing_generator_tier1000": {
+   "images": 1000,
+   "in_judge1_articles": 320,
+   "in_judge2_articles": 0,
+   "in_either": 320
+  },
+  "pass": true
+ }
+}

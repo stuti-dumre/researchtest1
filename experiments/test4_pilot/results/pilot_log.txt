@@ -1,0 +1,184 @@
+2026-11-15 17:50:45  === test 4 start
+2026-11-15 17:50:46  S1 lists: base 1000, reward captions 500; shared articles 0
+2026-11-15 18:02:33  S2 latents for 1000 base images
+2026-11-15 18:02:55    base: step 1/1200  loss 0.2197  6 s
+2026-11-15 18:07:06    base: step 50/1200  loss 0.1299  257 s
+2026-11-15 18:11:33    base: step 100/1200  loss 0.1125  524 s
+2026-11-15 18:16:00    base: step 150/1200  loss 0.1381  791 s
+2026-11-15 18:20:27    base: step 200/1200  loss 0.1214  1058 s
+2026-11-15 18:24:54    base: step 250/1200  loss 0.1053  1325 s
+2026-11-15 18:29:21    base: step 300/1200  loss 0.1301  1592 s
+2026-11-15 18:33:48    base: step 350/1200  loss 0.1057  1859 s
+2026-11-15 18:38:16    base: step 400/1200  loss 0.1164  2127 s
+2026-11-15 18:42:45    base: step 450/1200  loss 0.1263  2396 s
+2026-11-15 18:47:56    base: step 500/1200  loss 0.1108  2707 s
+2026-11-15 18:54:38    base: step 550/1200  loss 0.1147  3109 s
+2026-11-15 19:01:20    base: step 600/1200  loss 0.1367  3511 s
+2026-11-15 19:08:01    base: step 650/1200  loss 0.1100  3912 s
+2026-11-15 19:14:44    base: step 700/1200  loss 0.1104  4315 s
+2026-11-15 19:21:27    base: step 750/1200  loss 0.1099  4718 s
+2026-11-15 19:28:11    base: step 800/1200  loss 0.1358  5122 s
+2026-11-15 19:34:53    base: step 850/1200  loss 0.1271  5524 s
+2026-11-15 19:41:37    base: step 900/1200  loss 0.1199  5928 s
+2026-11-15 19:48:16    base: step 950/1200  loss 0.1159  6327 s
+2026-11-15 20:03:54    base: step 1000/1200  loss 0.1109  7265 s
+2026-11-15 20:08:01    base: step 1050/1200  loss 0.1086  7512 s
+2026-11-15 20:12:16    base: step 1100/1200  loss 0.1122  7768 s
+2026-11-15 20:16:33    base: step 1150/1200  loss 0.1393  8025 s
+2026-11-15 20:20:53    base: step 1200/1200  loss 0.1204  8284 s
+2026-11-15 20:20:54    base: saved in 8285 s
+2026-11-15 20:21:38  S4 concept checkers trained for 39 concepts
+2026-11-15 20:22:01    S5 candidates: 1/2000 drawn (0 already there)  22 s
+2026-11-15 20:30:53    S5 candidates: 26/2000 drawn (0 already there)  553 s
+2026-11-15 20:39:41    S5 candidates: 51/2000 drawn (0 already there)  1081 s
+2026-11-15 20:48:31    S5 candidates: 76/2000 drawn (0 already there)  1611 s
+2026-11-15 20:57:24    S5 candidates: 101/2000 drawn (0 already there)  2144 s
+2026-11-15 21:06:16    S5 candidates: 126/2000 drawn (0 already there)  2676 s
+2026-11-15 21:15:04    S5 candidates: 151/2000 drawn (0 already there)  3205 s
+2026-11-15 21:23:53    S5 candidates: 176/2000 drawn (0 already there)  3733 s
+2026-11-15 21:32:58    S5 candidates: 201/2000 drawn (0 already there)  4278 s
+2026-11-15 21:41:53    S5 candidates: 226/2000 drawn (0 already there)  4813 s
+2026-11-15 21:50:44    S5 candidates: 251/2000 drawn (0 already there)  5344 s
+2026-11-15 21:59:32    S5 candidates: 276/2000 drawn (0 already there)  5872 s
+2026-11-15 22:08:26    S5 candidates: 301/2000 drawn (0 already there)  6406 s
+2026-11-15 22:17:18    S5 candidates: 326/2000 drawn (0 already there)  6938 s
+2026-11-15 22:26:10    S5 candidates: 351/2000 drawn (0 already there)  7470 s
+2026-11-15 22:35:00    S5 candidates: 376/2000 drawn (0 already there)  8000 s
+2026-11-15 22:43:51    S5 candidates: 401/2000 drawn (0 already there)  8531 s
+2026-11-15 22:52:48    S5 candidates: 426/2000 drawn (0 already there)  9068 s
+2026-11-15 23:01:37    S5 candidates: 451/2000 drawn (0 already there)  9597 s
+2026-11-15 23:10:33    S5 candidates: 476/2000 drawn (0 already there)  10133 s
+2026-11-15 23:19:24    S5 candidates: 501/2000 drawn (0 already there)  10664 s
+2026-11-15 23:28:19    S5 candidates: 526/2000 drawn (0 already there)  11199 s
+2026-11-15 23:37:11    S5 candidates: 551/2000 drawn (0 already there)  11731 s
+2026-11-15 23:46:03    S5 candidates: 576/2000 drawn (0 already there)  12263 s
+2026-11-15 23:54:53    S5 candidates: 601/2000 drawn (0 already there)  12793 s
+2026-11-16 00:03:49    S5 candidates: 626/2000 drawn (0 already there)  13329 s
+2026-11-16 00:12:43    S5 candidates: 651/2000 drawn (0 already there)  13863 s
+2026-11-16 00:21:49    S5 candidates: 676/2000 drawn (0 already there)  14409 s
+2026-11-16 00:30:39    S5 candidates: 701/2000 drawn (0 already there)  14939 s
+2026-11-16 00:39:29    S5 candidates: 726/2000 drawn (0 already there)  15469 s
+2026-11-16 00:48:20    S5 candidates: 751/2000 drawn (0 already there)  16000 s
+2026-11-16 00:57:11    S5 candidates: 776/2000 drawn (0 already there)  16532 s
+2026-11-16 01:06:04    S5 candidates: 801/2000 drawn (0 already there)  17065 s
+2026-11-16 01:14:50    S5 candidates: 826/2000 drawn (0 already there)  17590 s
+2026-11-16 01:23:39    S5 candidates: 851/2000 drawn (0 already there)  18119 s
+2026-11-16 01:32:25    S5 candidates: 876/2000 drawn (0 already there)  18645 s
+2026-11-16 01:41:17    S5 candidates: 901/2000 drawn (0 already there)  19177 s
+2026-11-16 01:50:04    S5 candidates: 926/2000 drawn (0 already there)  19704 s
+2026-11-16 01:58:54    S5 candidates: 951/2000 drawn (0 already there)  20234 s
+2026-11-16 02:07:47    S5 candidates: 976/2000 drawn (0 already there)  20767 s
+2026-11-16 02:16:39    S5 candidates: 1001/2000 drawn (0 already there)  21299 s
+2026-11-16 02:25:29    S5 candidates: 1026/2000 drawn (0 already there)  21829 s
+2026-11-16 02:34:16    S5 candidates: 1051/2000 drawn (0 already there)  22356 s
+2026-11-16 02:43:07    S5 candidates: 1076/2000 drawn (0 already there)  22888 s
+2026-11-16 02:51:57    S5 candidates: 1101/2000 drawn (0 already there)  23417 s
+2026-11-16 03:00:46    S5 candidates: 1126/2000 drawn (0 already there)  23946 s
+2026-11-16 03:09:37    S5 candidates: 1151/2000 drawn (0 already there)  24477 s
+2026-11-16 03:18:26    S5 candidates: 1176/2000 drawn (0 already there)  25006 s
+2026-11-16 03:27:16    S5 candidates: 1201/2000 drawn (0 already there)  25536 s
+2026-11-16 03:36:04    S5 candidates: 1226/2000 drawn (0 already there)  26064 s
+2026-11-16 03:44:49    S5 candidates: 1251/2000 drawn (0 already there)  26589 s
+2026-11-16 03:53:36    S5 candidates: 1276/2000 drawn (0 already there)  27116 s
+2026-11-16 04:02:31    S5 candidates: 1301/2000 drawn (0 already there)  27652 s
+2026-11-16 04:11:25    S5 candidates: 1326/2000 drawn (0 already there)  28185 s
+2026-11-16 04:20:14    S5 candidates: 1351/2000 drawn (0 already there)  28714 s
+2026-11-16 04:29:01    S5 candidates: 1376/2000 drawn (0 already there)  29241 s
+2026-11-16 04:37:52    S5 candidates: 1401/2000 drawn (0 already there)  29772 s
+2026-11-16 04:46:39    S5 candidates: 1426/2000 drawn (0 already there)  30300 s
+2026-11-16 04:55:31    S5 candidates: 1451/2000 drawn (0 already there)  30831 s
+2026-11-16 05:04:26    S5 candidates: 1476/2000 drawn (0 already there)  31366 s
+2026-11-16 05:13:16    S5 candidates: 1501/2000 drawn (0 already there)  31896 s
+2026-11-16 05:22:06    S5 candidates: 1526/2000 drawn (0 already there)  32426 s
+2026-11-16 05:30:51    S5 candidates: 1551/2000 drawn (0 already there)  32951 s
+2026-11-16 05:39:45    S5 candidates: 1576/2000 drawn (0 already there)  33485 s
+2026-11-16 05:48:34    S5 candidates: 1601/2000 drawn (0 already there)  34014 s
+2026-11-16 05:57:23    S5 candidates: 1626/2000 drawn (0 already there)  34543 s
+2026-11-16 06:06:15    S5 candidates: 1651/2000 drawn (0 already there)  35076 s
+2026-11-16 06:15:01    S5 candidates: 1676/2000 drawn (0 already there)  35601 s
+2026-11-16 06:23:51    S5 candidates: 1701/2000 drawn (0 already there)  36131 s
+2026-11-16 06:32:39    S5 candidates: 1726/2000 drawn (0 already there)  36659 s
+2026-11-16 06:41:28    S5 candidates: 1751/2000 drawn (0 already there)  37188 s
+2026-11-16 06:50:13    S5 candidates: 1776/2000 drawn (0 already there)  37714 s
+2026-11-16 06:59:01    S5 candidates: 1801/2000 drawn (0 already there)  38241 s
+2026-11-16 07:07:53    S5 candidates: 1826/2000 drawn (0 already there)  38774 s
+2026-11-16 07:16:39    S5 candidates: 1851/2000 drawn (0 already there)  39299 s
+2026-11-16 07:25:28    S5 candidates: 1876/2000 drawn (0 already there)  39828 s
+2026-11-16 07:34:13    S5 candidates: 1901/2000 drawn (0 already there)  40353 s
+2026-11-16 07:43:00    S5 candidates: 1926/2000 drawn (0 already there)  40880 s
+2026-11-16 07:51:50    S5 candidates: 1951/2000 drawn (0 already there)  41410 s
+2026-11-16 08:00:39    S5 candidates: 1976/2000 drawn (0 already there)  41939 s
+2026-11-16 08:09:07    S5 candidates: 2000/2000 drawn (0 already there)  42447 s
+2026-11-16 08:17:08  S6 candidates scored: 2000; guarded copy 0, marks 350; captions kept 496 of 500; pick = random for 160
+2026-11-16 08:22:41  S7 latents for 496 random images
+2026-11-16 08:22:57    random: step 1/300  loss 0.1407  8 s
+2026-11-16 08:27:09    random: step 50/300  loss 0.1318  260 s
+2026-11-16 08:31:30    random: step 100/300  loss 0.1217  520 s
+2026-11-16 08:35:49    random: step 150/300  loss 0.1445  780 s
+2026-11-16 08:40:06    random: step 200/300  loss 0.1321  1037 s
+2026-11-16 08:44:22    random: step 250/300  loss 0.1217  1293 s
+2026-11-16 08:48:39    random: step 300/300  loss 0.1304  1550 s
+2026-11-16 08:48:40    random: saved in 1551 s
+2026-11-16 08:54:14  S7 latents for 496 pick images
+2026-11-16 08:54:27    pick: step 1/300  loss 0.1445  6 s
+2026-11-16 08:58:45    pick: step 50/300  loss 0.1300  263 s
+2026-11-16 09:03:04    pick: step 100/300  loss 0.1172  523 s
+2026-11-16 09:07:27    pick: step 150/300  loss 0.1399  786 s
+2026-11-16 09:11:42    pick: step 200/300  loss 0.1281  1041 s
+2026-11-16 09:16:00    pick: step 250/300  loss 0.1177  1298 s
+2026-11-16 09:20:18    pick: step 300/300  loss 0.1279  1557 s
+2026-11-16 09:20:19    pick: saved in 1557 s
+2026-11-16 09:20:42    S8 test base: 1/400 drawn (0 already there)  22 s
+2026-11-16 09:29:38    S8 test base: 26/400 drawn (0 already there)  558 s
+2026-11-16 09:38:36    S8 test base: 51/400 drawn (0 already there)  1096 s
+2026-11-16 09:47:33    S8 test base: 76/400 drawn (0 already there)  1632 s
+2026-11-16 09:56:31    S8 test base: 101/400 drawn (0 already there)  2171 s
+2026-11-16 10:05:31    S8 test base: 126/400 drawn (0 already there)  2710 s
+2026-11-16 10:14:26    S8 test base: 151/400 drawn (0 already there)  3246 s
+2026-11-16 10:23:27    S8 test base: 176/400 drawn (0 already there)  3787 s
+2026-11-16 10:32:23    S8 test base: 201/400 drawn (0 already there)  4323 s
+2026-11-16 10:41:20    S8 test base: 226/400 drawn (0 already there)  4859 s
+2026-11-16 10:50:13    S8 test base: 251/400 drawn (0 already there)  5393 s
+2026-11-16 10:59:10    S8 test base: 276/400 drawn (0 already there)  5930 s
+2026-11-16 11:08:09    S8 test base: 301/400 drawn (0 already there)  6469 s
+2026-11-16 11:17:06    S8 test base: 326/400 drawn (0 already there)  7006 s
+2026-11-16 11:26:03    S8 test base: 351/400 drawn (0 already there)  7543 s
+2026-11-16 11:35:00    S8 test base: 376/400 drawn (0 already there)  8080 s
+2026-11-16 11:43:35    S8 test base: 400/400 drawn (0 already there)  8594 s
+2026-11-16 11:43:58    S8 test random: 1/400 drawn (0 already there)  21 s
+2026-11-16 11:52:55    S8 test random: 26/400 drawn (0 already there)  558 s
+2026-11-16 12:01:52    S8 test random: 51/400 drawn (0 already there)  1095 s
+2026-11-16 12:10:49    S8 test random: 76/400 drawn (0 already there)  1632 s
+2026-11-16 12:19:46    S8 test random: 101/400 drawn (0 already there)  2169 s
+2026-11-16 12:28:43    S8 test random: 126/400 drawn (0 already there)  2706 s
+2026-11-16 12:37:37    S8 test random: 151/400 drawn (0 already there)  3240 s
+2026-11-16 12:46:31    S8 test random: 176/400 drawn (0 already there)  3774 s
+2026-11-16 12:55:30    S8 test random: 201/400 drawn (0 already there)  4313 s
+2026-11-16 13:04:30    S8 test random: 226/400 drawn (0 already there)  4853 s
+2026-11-16 13:13:26    S8 test random: 251/400 drawn (0 already there)  5389 s
+2026-11-16 13:22:23    S8 test random: 276/400 drawn (0 already there)  5926 s
+2026-11-16 13:31:19    S8 test random: 301/400 drawn (0 already there)  6462 s
+2026-11-16 13:40:18    S8 test random: 326/400 drawn (0 already there)  7001 s
+2026-11-16 13:49:12    S8 test random: 351/400 drawn (0 already there)  7535 s
+2026-11-16 13:58:10    S8 test random: 376/400 drawn (0 already there)  8073 s
+2026-11-16 14:06:52    S8 test random: 400/400 drawn (0 already there)  8595 s
+2026-11-16 14:07:15    S8 test pick: 1/400 drawn (0 already there)  21 s
+2026-11-16 14:16:16    S8 test pick: 26/400 drawn (0 already there)  562 s
+2026-11-16 14:25:15    S8 test pick: 51/400 drawn (0 already there)  1101 s
+2026-11-16 14:34:14    S8 test pick: 76/400 drawn (0 already there)  1640 s
+2026-11-16 14:43:14    S8 test pick: 101/400 drawn (0 already there)  2180 s
+2026-11-16 14:52:16    S8 test pick: 126/400 drawn (0 already there)  2722 s
+2026-11-16 15:01:14    S8 test pick: 151/400 drawn (0 already there)  3260 s
+2026-11-16 15:10:10    S8 test pick: 176/400 drawn (0 already there)  3796 s
+2026-11-16 15:19:05    S8 test pick: 201/400 drawn (0 already there)  4331 s
+2026-11-16 15:27:58    S8 test pick: 226/400 drawn (0 already there)  4864 s
+2026-11-16 15:36:53    S8 test pick: 251/400 drawn (0 already there)  5399 s
+2026-11-16 15:45:43    S8 test pick: 276/400 drawn (0 already there)  5928 s
+2026-11-16 15:54:34    S8 test pick: 301/400 drawn (0 already there)  6460 s
+2026-11-16 16:03:32    S8 test pick: 326/400 drawn (0 already there)  6998 s
+2026-11-16 16:12:29    S8 test pick: 351/400 drawn (0 already there)  7535 s
+2026-11-16 16:21:20    S8 test pick: 376/400 drawn (0 already there)  8066 s
+2026-11-16 16:29:51    S8 test pick: 400/400 drawn (0 already there)  8577 s
+2026-11-16 16:29:52  S9 scoring
+2026-11-16 16:34:26  S9 done: verdicts {'P1_scan_type_pick_gt_random': True, 'P2_copy_share_le_5pct': True, 'P3_concepts_pick_gt_random': False}
+2026-11-16 16:34:26  === test 4 finished

@@ -1,0 +1,15 @@
+{
+ "single": {
+  "exit": [
+   0
+  ],
+  "peak_gb": 6.17,
+  "sec_per_step": 5.13,
+  "steps_per_min": 11.69,
+  "wall_sec": 128,
+  "free_gb_before": 10.1
+ },
+ "pair": {
+  "skipped": "free memory 10.2 GB < needed 14.3 GB (2 x single peak + 2 GB)"
+ }
+}

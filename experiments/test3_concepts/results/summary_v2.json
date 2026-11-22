@@ -1,0 +1,48 @@
+{
+ "split_v2": {
+  "reward_added": 10000,
+  "judge_added": 10000,
+  "pool_v2_images": 33124,
+  "pool_v2_per_type": {
+   "CT": 13906,
+   "X-ray": 8589,
+   "MRI": 5752,
+   "Ultrasound": 4877
+  },
+  "shared_articles": {
+   "reward&judge": 0,
+   "reward&pool": 0,
+   "reward&test": 0,
+   "judge&pool": 0,
+   "judge&test": 0,
+   "pool&test": 0
+  },
+  "checks_ok": true
+ },
+ "negation_removed_labels": 873,
+ "main: larger sides + negation rule": {
+  "eligible": 253,
+  "eligible_other": 238,
+  "usable": 54,
+  "usable_other": 39,
+  "usable_other_both_ci_low_ge_0.80": 15,
+  "test_items_with_usable_other": 0.2125,
+  "mean_usable_other_per_test_item": 0.2625
+ },
+ "larger sides only": {
+  "eligible": 256,
+  "eligible_other": 241,
+  "usable": 54,
+  "usable_other": 39,
+  "usable_other_both_ci_low_ge_0.80": 14,
+  "test_items_with_usable_other": 0.215,
+  "mean_usable_other_per_test_item": 0.265
+ },
+ "test2_16_still_usable": 15,
+ "decision_rule": "20 or more: concepts become a main part",
+ "seconds": {
+  "features": 3294,
+  "classifiers": 636,
+  "total": 3935
+ }
+}

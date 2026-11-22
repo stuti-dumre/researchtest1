@@ -1,0 +1,169 @@
+{
+ "smoke": false,
+ "models": {
+  "base": {
+   "scan_type_judge2": 0.9325,
+   "region_judge2": 0.4742268041237113,
+   "scan_type_judge1": 0.9275,
+   "concept_hit_rate_B": 0.052941176470588235,
+   "copy_share": 0.0,
+   "marks_share": 0.175,
+   "kid_swav": 0.002796966346151546
+  },
+  "random": {
+   "scan_type_judge2": 0.935,
+   "region_judge2": 0.4536082474226804,
+   "scan_type_judge1": 0.8925,
+   "concept_hit_rate_B": 0.07745098039215687,
+   "copy_share": 0.0,
+   "marks_share": 0.1375,
+   "kid_swav": 0.006888632975496249
+  },
+  "pick": {
+   "scan_type_judge2": 0.97,
+   "region_judge2": 0.4020618556701031,
+   "scan_type_judge1": 0.9575,
+   "concept_hit_rate_B": 0.10235294117647058,
+   "copy_share": 0.0,
+   "marks_share": 0.12,
+   "kid_swav": 0.00799913362510441
+  }
+ },
+ "comparisons": {
+  "pick-random": {
+   "j2_mod": {
+    "diff": 0.035,
+    "low": 0.015,
+    "high": 0.0575,
+    "n": 400
+   },
+   "j2_reg": {
+    "diff": -0.05154639175257732,
+    "low": -0.13402061855670103,
+    "high": 0.030927835051546393,
+    "n": 97
+   },
+   "j1_mod": {
+    "diff": 0.065,
+    "low": 0.0375,
+    "high": 0.095,
+    "n": 400
+   },
+   "copy": {
+    "diff": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "n": 400
+   },
+   "marks": {
+    "diff": -0.0175,
+    "low": -0.0575,
+    "high": 0.02,
+    "n": 400
+   },
+   "concept": {
+    "diff": 0.024901960784313726,
+    "low": -0.03333333333333333,
+    "high": 0.0860882352941176,
+    "n": 85
+   }
+  },
+  "pick-base": {
+   "j2_mod": {
+    "diff": 0.0375,
+    "low": 0.0125,
+    "high": 0.065,
+    "n": 400
+   },
+   "j2_reg": {
+    "diff": -0.07216494845360824,
+    "low": -0.13402061855670103,
+    "high": -0.010309278350515464,
+    "n": 97
+   },
+   "j1_mod": {
+    "diff": 0.03,
+    "low": 0.005,
+    "high": 0.0575,
+    "n": 400
+   },
+   "copy": {
+    "diff": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "n": 400
+   },
+   "marks": {
+    "diff": -0.055,
+    "low": -0.095,
+    "high": -0.015,
+    "n": 400
+   },
+   "concept": {
+    "diff": 0.049411764705882356,
+    "low": -0.003529411764705883,
+    "high": 0.10826470588235278,
+    "n": 85
+   }
+  },
+  "random-base": {
+   "j2_mod": {
+    "diff": 0.0025,
+    "low": -0.025,
+    "high": 0.03,
+    "n": 400
+   },
+   "j2_reg": {
+    "diff": -0.020618556701030927,
+    "low": -0.10309278350515463,
+    "high": 0.06211340206185426,
+    "n": 97
+   },
+   "j1_mod": {
+    "diff": -0.035,
+    "low": -0.0675,
+    "high": 0.0,
+    "n": 400
+   },
+   "copy": {
+    "diff": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "n": 400
+   },
+   "marks": {
+    "diff": -0.0375,
+    "low": -0.08,
+    "high": 0.005,
+    "n": 400
+   },
+   "concept": {
+    "diff": 0.02450980392156863,
+    "low": -0.026495098039215684,
+    "high": 0.08335784313725476,
+    "n": 85
+   }
+  }
+ },
+ "inflation_pick_minus_random": {
+  "diff": 0.03,
+  "low": 0.0,
+  "high": 0.0625,
+  "n": 400
+ },
+ "kid_real_vs_real": 5.0110597956538606e-05,
+ "copy_line_swav": {
+  "CT": 0.9028215050677425,
+  "X-ray": 0.9172742770777201,
+  "MRI": 0.8864469874552209,
+  "Ultrasound": 0.9245051088667454
+ },
+ "verdicts": {
+  "P1_scan_type_pick_gt_random": true,
+  "P2_copy_share_le_5pct": true,
+  "P3_concepts_pick_gt_random": false
+ },
+ "test_items": 400,
+ "test_items_with_concepts": 85,
+ "captions_kept": 496
+}

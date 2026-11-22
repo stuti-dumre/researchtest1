@@ -1,28 +1,53 @@
-# MINIM code tests
+# ROCOv2 text-to-image tests
 
-Scripts that test the released code of MINIM (https://github.com/WithStomach/MINIM) at commit 7a2b2f7.
+Stable Diffusion 1.5 with LoRA, fine-tuned on ROCOv2 figure captions, and two image-only judges trained on separate
+articles. The tests of MINIM's released code are in `minim-testcase/` (see its README).
+
+## Folders
+
+| Folder | Contents |
+|---|---|
+| `tools/` | shared code: data access, image features, splits, Stable Diffusion helpers |
+| `prepare/` | joined table, ROCO-mini split, both judges, latents, and the model that test 1 redraws |
+| `experiments/test1_setup/` | redraw check, judge check, split by article, training speed |
+| `experiments/test2_concepts/` | which caption concepts an image checker can recognise |
+| `experiments/test3_concepts/` | the same with larger checker sides and negation-aware labels |
+| `experiments/test4_pilot/` | best of 4 picked by the reward-side checkers, scored by the judge side |
+
+Shared files go to `data/` and `models/`. Each test writes to `runs/` in its folder; `results/` holds the outputs of
+our run.
+
+## Data
+
+ROCOv2 v2.0.1: https://zenodo.org/records/10821435
+
+Put the csv tables in `data/rocov2/tables/` and `train_images.zip`, `valid_images.zip` and `test_images.zip` in
+`data/rocov2/zips/`. The images are read from the zips. The models (Stable Diffusion 1.5, sd-vae-ft-mse, DINOv2,
+SwAV and the CLIP tokenizer) download on first use.
 
 ## Setup
 
 ```
-git clone https://github.com/WithStomach/MINIM.git MINIM
-git -C MINIM checkout 7a2b2f7
 pip install -r requirements.txt
 ```
 
-The scripts look for MINIM in `./MINIM`. Set `MINIM_DIR` if it is somewhere else.
-
 ## Run
 
-```
-python t01_example_data.py
-python t02_train_smoke.py
-python t03_metrics.py
-python t04_rlhf.py
-python t05_classifier.py
-python t06_laptop_speed.py
-python make_figures.py
-```
+From the repository root, in this order:
 
-Each script saves its output in `results/`. `make_figures.py` uses the output of `t04_rlhf.py` and saves the plots
-in `figures/`.
+```
+python prepare/build_master.py
+python prepare/build_roco_mini.py
+python prepare/build_judge1.py
+python prepare/build_judge2.py
+python prepare/prep_latents.py --res 256 --max-tier 1000
+python prepare/train_lora.py --arm minim_paper --tier 1000 --steps 400
+python prepare/generate.py --run minim_paper_t1000 --n-per-mod 100 --steps 15
+
+python experiments/test1_setup/setup_check.py
+python experiments/test1_setup/speed_test.py
+python experiments/test2_concepts/concept_count.py
+python experiments/test3_concepts/concept_fix.py
+python experiments/test4_pilot/run_pilot.py
+python experiments/test4_pilot/inspect_results.py
+```
