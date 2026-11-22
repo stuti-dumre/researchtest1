@@ -1,0 +1,14 @@
+read_images: CRASH: TypeError: ToTensor.__init__() takes 1 positional argument but 2 were given
+FID on one pair: CRASH: LinAlgError: Internal error in scipy.linalg.sqrtm: -102
+images loaded
+crops built {'real': (2520, 299, 299, 3), 'real2': (2520, 299, 299, 3), 'fake': (2520, 299, 299, 3)}
+features done: real
+features done: real2
+features done: fake
+real_vs_real2 {'standard_FID_pool3_squared': 8.93, 'MINIM_formula_logits_sqrt': 3.98, 'logits_squared': 15.87, 'pool3_sqrt': 2.99}
+real_vs_fake {'standard_FID_pool3_squared': 122.66, 'MINIM_formula_logits_sqrt': 22.15, 'logits_squared': 490.69, 'pool3_sqrt': 11.08}
+IS real {'MINIM_formula': 0.4244, 'standard_mean': 2.287, 'standard_sd': 0.461}
+IS fake {'MINIM_formula': 0.3708, 'standard_mean': 2.692, 'standard_sd': 0.564}
+IS toy: {'MINIM_formula': 2.319515234519413e-15, 'standard': 10.0}
+SSIM matched vs shuffled: 0.2614123821258545 0.15806488692760468
+[saved] results\t03_metrics.json

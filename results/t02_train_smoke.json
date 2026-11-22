@@ -1,0 +1,33 @@
+{
+  "A_original": {
+    "returncode": 0,
+    "seconds": 33.5,
+    "unet_sha256": "96882155b45d8b75",
+    "error_tail": []
+  },
+  "B_modal_scrambled": {
+    "returncode": 0,
+    "seconds": 33.4,
+    "unet_sha256": "96882155b45d8b75",
+    "error_tail": []
+  },
+  "C_all_captions_changed": {
+    "returncode": 0,
+    "seconds": 35.1,
+    "unet_sha256": "e2550f14c2c6fb19",
+    "error_tail": []
+  },
+  "max_weight_change_A_vs_start": 0.0015388291794806719,
+  "max_weight_diff_A_vs_B_modal": 0.0,
+  "max_weight_diff_A_vs_C_captions": 0.002764682285487652,
+  "A2_rerun_same_folder": {
+    "returncode": 1,
+    "seconds": 23.4,
+    "unet_sha256": "96882155b45d8b75",
+    "error_tail": [
+      "FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'out_A\\\\validation'"
+    ]
+  },
+  "modal_column_has_effect": false,
+  "caption_has_effect": true
+}

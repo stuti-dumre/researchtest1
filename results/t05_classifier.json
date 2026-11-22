@@ -1,0 +1,48 @@
+{
+  "run_file": {
+    "returncode": 0,
+    "stdout_chars": 0,
+    "stderr_chars": 0,
+    "has_main_guard": false
+  },
+  "load_breast_examples": "CRASH: RuntimeError: stack expects each tensor to be equal size, but got [1, 384, 384] at entry 0 and [1, 256, 256] at entry 5",
+  "state_dict_aliasing": {
+    "saved_best_changed_after_later_training": true,
+    "saved_best_equals_current_weights": true,
+    "parameters": 269923715,
+    "fc1_parameters": 268436480
+  },
+  "double_softmax": {
+    "loss_floor_3_classes": 0.5514,
+    "loss_floor_formula": "log(e^0 + e^0 + e^1) - 1 = log(2 + e) - 1",
+    "toy_training_300_steps": {
+      "logits_correct": {
+        "final_loss": 0.0686,
+        "train_accuracy": 1.0,
+        "first_layer_grad_norm": null
+      },
+      "softmax_then_CE_MINIM": {
+        "final_loss": 0.5842,
+        "train_accuracy": 1.0,
+        "first_layer_grad_norm": null
+      }
+    }
+  },
+  "image_level_split_overlap": {
+    "chest_3745_patients_x_20_images": 1.0,
+    "10_images_per_patient": 1.0,
+    "3_images_per_patient": 0.965,
+    "meaning": "share of test images whose patient also has images in the training part"
+  },
+  "architecture": {
+    "conv_layers_in_code": 4,
+    "linear_layers_in_code": 3,
+    "paper_says": "three convolutional layers ... three linear functions",
+    "code_lr": 1e-05,
+    "paper_lr": 0.001,
+    "code_epochs": 50,
+    "paper_epochs": 20,
+    "code_batch": 32,
+    "paper_batch": 128
+  }
+}

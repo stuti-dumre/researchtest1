@@ -1,0 +1,255 @@
+{
+  "selector": {
+    "gradient_of_score_wrt_image": {
+      "released": 0.0,
+      "with_fix": 0.25110724568367004
+    },
+    "images": [
+      "oct/0.jpg",
+      "oct/1.jpg",
+      "fundus/0.jpg",
+      "fundus/1.jpg",
+      "cxr/0.jpg",
+      "cxr/1.jpg",
+      "chest-ct/0.jpg",
+      "chest-ct/1.jpg",
+      "brain-mri/0.jpg",
+      "brain-mri/1.jpg",
+      "breast-mri/0.jpg",
+      "breast-mri/1.jpg",
+      "all-black",
+      "random-noise"
+    ],
+    "scores_one_by_one": [
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754
+    ],
+    "scores_as_batch": [
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754,
+      0.52754
+    ],
+    "spread_one_by_one": 0.0,
+    "spread_as_batch": 0.0,
+    "spread_with_batch_first_fix": 0.004155397415161133,
+    "scores_with_fix": [
+      0.53781,
+      0.538144,
+      0.538871,
+      0.538954,
+      0.539097,
+      0.538521,
+      0.5384,
+      0.538613,
+      0.536359,
+      0.536471,
+      0.535812,
+      0.535875,
+      0.534941,
+      0.538956
+    ]
+  },
+  "policy_loss": {
+    "free": {
+      "MINIM_code_stage1": {
+        "mean_score_by_rating": {
+          "1": 0.67,
+          "2": 0.604,
+          "3": 0.986
+        },
+        "target_by_rating": {
+          "1": 0.0,
+          "2": 0.5,
+          "3": 1.0
+        },
+        "share_scores_above_0.95": 0.61,
+        "spearman_with_rating": 0.002
+      },
+      "paper_equation": {
+        "mean_score_by_rating": {
+          "1": 0.01,
+          "2": 0.5,
+          "3": 0.99
+        },
+        "target_by_rating": {
+          "1": 0.0,
+          "2": 0.5,
+          "3": 1.0
+        },
+        "share_scores_above_0.95": 0.337,
+        "spearman_with_rating": 0.963
+      }
+    },
+    "network": {
+      "MINIM_code_stage1": {
+        "mean_score_by_rating": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0
+        },
+        "target_by_rating": {
+          "1": 0.0,
+          "2": 0.5,
+          "3": 1.0
+        },
+        "share_scores_above_0.95": 1.0,
+        "spearman_with_rating": 0.764
+      },
+      "paper_equation": {
+        "mean_score_by_rating": {
+          "1": 0.073,
+          "2": 0.528,
+          "3": 0.906
+        },
+        "target_by_rating": {
+          "1": 0.0,
+          "2": 0.5,
+          "3": 1.0
+        },
+        "share_scores_above_0.95": 0.127,
+        "spearman_with_rating": 0.924
+      }
+    }
+  },
+  "expert_weighting": [
+    {
+      "doctor_rating": 1,
+      "expert_level": 1,
+      "after_weighting": 0.333,
+      "kept_for_training": false
+    },
+    {
+      "doctor_rating": 2,
+      "expert_level": 1,
+      "after_weighting": 0.667,
+      "kept_for_training": false
+    },
+    {
+      "doctor_rating": 3,
+      "expert_level": 1,
+      "after_weighting": 1.0,
+      "kept_for_training": true
+    },
+    {
+      "doctor_rating": 1,
+      "expert_level": 2,
+      "after_weighting": 0.667,
+      "kept_for_training": false
+    },
+    {
+      "doctor_rating": 2,
+      "expert_level": 2,
+      "after_weighting": 1.333,
+      "kept_for_training": true
+    },
+    {
+      "doctor_rating": 3,
+      "expert_level": 2,
+      "after_weighting": 2.0,
+      "kept_for_training": true
+    },
+    {
+      "doctor_rating": 1,
+      "expert_level": 3,
+      "after_weighting": 1.0,
+      "kept_for_training": true
+    },
+    {
+      "doctor_rating": 2,
+      "expert_level": 3,
+      "after_weighting": 2.0,
+      "kept_for_training": true
+    },
+    {
+      "doctor_rating": 3,
+      "expert_level": 3,
+      "after_weighting": 3.0,
+      "kept_for_training": true
+    }
+  ],
+  "ct_dicom": {
+    "their_output_unique_values": 2,
+    "their_output_nonzero_fraction": 0.266,
+    "correct_soft_tissue_window_unique_values": 4,
+    "rescale_intercept_used_by_their_code": false
+  },
+  "mri_nifti": {
+    "input_is_smooth_ramp_0_to_3000": true,
+    "output_direction_changes_along_ramp": 34,
+    "slices_used": "middle slice only (of 9)"
+  },
+  "quality_gate_on_real_images": {
+    "BreastMRI": {
+      "passed": 0,
+      "of": 10,
+      "median_snr": 0.57,
+      "min_contrast": 1.0
+    },
+    "BrainMRI": {
+      "passed": 0,
+      "of": 10,
+      "median_snr": 0.71,
+      "min_contrast": 1.0
+    },
+    "Fundus": {
+      "passed": 10,
+      "of": 10,
+      "median_snr": 2.38,
+      "min_contrast": 1.0
+    },
+    "ChestCT": {
+      "passed": 8,
+      "of": 10,
+      "median_snr": 1.03,
+      "min_contrast": 1.0
+    },
+    "OCT": {
+      "passed": 4,
+      "of": 10,
+      "median_snr": 0.94,
+      "min_contrast": 1.0
+    },
+    "CXR": {
+      "passed": 10,
+      "of": 10,
+      "median_snr": 1.42,
+      "min_contrast": 1.0
+    }
+  },
+  "config_has_selector_threshold": false,
+  "synthetic_vae_after_init": "None",
+  "synthetic_generate": "CRASH: AttributeError: 'NoneType' object has no attribute 'decode'",
+  "synthetic_update": "CRASH: TypeError: '<=' not supported between instances of 'float' and 'str'",
+  "yaml_reads_1e-5_as": "'1e-5'",
+  "synthetic_update_after_lr_fix": "CRASH: AttributeError: 'StableDiffusionPipeline' object has no attribute 'train'",
+  "policy_preprocess_shape": [
+    1,
+    512,
+    512
+  ],
+  "policy_image_encoder_on_one_image": "CRASH: KeyError: 3",
+  "policy_image_encoder_pretrained": "config says pretrained: true, but VisionTransformer is built from random weights (no loading code)"
+}

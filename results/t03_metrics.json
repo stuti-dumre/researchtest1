@@ -1,0 +1,33 @@
+{
+  "read_images_default": "CRASH: TypeError: ToTensor.__init__() takes 1 positional argument but 2 were given",
+  "fid_one_pair": "CRASH: LinAlgError: Internal error in scipy.linalg.sqrtm: -102",
+  "n_per_set": 2520,
+  "real_vs_real2": {
+    "standard_FID_pool3_squared": 8.93,
+    "MINIM_formula_logits_sqrt": 3.98,
+    "logits_squared": 15.87,
+    "pool3_sqrt": 2.99
+  },
+  "real_vs_fake": {
+    "standard_FID_pool3_squared": 122.66,
+    "MINIM_formula_logits_sqrt": 22.15,
+    "logits_squared": 490.69,
+    "pool3_sqrt": 11.08
+  },
+  "IS_real": {
+    "MINIM_formula": 0.4244,
+    "standard_mean": 2.287,
+    "standard_sd": 0.461
+  },
+  "IS_fake": {
+    "MINIM_formula": 0.3708,
+    "standard_mean": 2.692,
+    "standard_sd": 0.564
+  },
+  "IS_toy_true_value_10": {
+    "MINIM_formula": 2.319515234519413e-15,
+    "standard": 10.0
+  },
+  "SSIM_same_images_matched_order": 0.2614,
+  "SSIM_same_images_shuffled_order": 0.1581
+}

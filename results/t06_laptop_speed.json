@@ -1,0 +1,25 @@
+{
+  "torch_threads": 8,
+  "unet_params_millions": 859.5,
+  "vae_params_millions": 83.7,
+  "text_params_millions": 123.1,
+  "text_encode_s": 0.095,
+  "512px": {
+    "vae_encode_s": 2.81,
+    "vae_decode_s": 6.02,
+    "generate_step_s": 4.75,
+    "train_step_1_image_s": 10.06,
+    "one_image_100_steps_min": 8.0,
+    "MINIM_training_20k_steps_x_128_images_years": 1.0,
+    "one_epoch_60_examples_min": 12.9
+  },
+  "256px": {
+    "vae_encode_s": 0.74,
+    "vae_decode_s": 1.67,
+    "generate_step_s": 1.23,
+    "train_step_1_image_s": 3.11,
+    "one_image_100_steps_min": 2.1,
+    "MINIM_training_20k_steps_x_128_images_years": 0.3,
+    "one_epoch_60_examples_min": 3.8
+  }
+}
